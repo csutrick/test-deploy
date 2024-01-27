@@ -1,7 +1,19 @@
 # dependencies
 /node_modules
+/server/node_modules
+/client/node_modules
 /.pnp
 .pnp.js
+
+# React specific
+**/*.log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/public/*.html
+/src/**/*.test.js
+/src/**/*.test.jsx
 
 # testing
 /coverage
@@ -17,6 +29,6 @@
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Server and client specific environment variables
+/server/.env
+/client/.env
