@@ -1,14 +1,17 @@
 [
   {
-    "name": "First TestUser"
+    "name": "Test One",
+    "email": "testUser1@testdeploy.dev",
+    "password": "password01"
   },
   {
-    "name": "Second TestUser"
+    "name": "Test Two",
+    "email": "testUser2@testdeploy.dev",
+    "password": "password02"
   },
   {
-    "name": "Third TestUser"
-  },
-  {
-    "name": "Fourth TestUser"
+    "name": "Test Three",
+    "email": "testUser3@testdeploy.dev",
+    "password": "password03"
   }
 ]
