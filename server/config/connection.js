@@ -1,12 +1,10 @@
 const mongoose = require("mongoose");
 
-mongoDBUri = "mongodb://localhost:27017/test-deploy";
+//mongoDBUri = "mongodb://localhost:27017/test-deploy";
 
-mongoose.connect(mongoDBUri, {
+mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
 
 module.exports = mongoose.connection;
-
-//process.env.MONGODB_URI
