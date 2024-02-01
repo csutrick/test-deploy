@@ -2,7 +2,7 @@ import React from "react";
 
 const UserList = ({ profiles }) => {
   return (
-    <div className="bg-red-300 w-full space-y-4 p-4">
+    <div className="w-full space-y-4 p-4">
       {profiles.map((profile) => (
         <div
           key={profile._id}

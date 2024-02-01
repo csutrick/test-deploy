@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-import SignUpForm from "../components/Signup/form";
+import SignUpForm from "../components/PageSignup/form";
 
 const SignUp = () => {
   return (
